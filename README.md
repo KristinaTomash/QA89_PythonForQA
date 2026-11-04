@@ -1,19 +1,12 @@
 # QA89_PythonForQA
 
 Технологии (Tech Stack)
-
 Python 3
-
 pytest
-
 Selenium WebDriver
-
 Git / GitHub
-
 PyCharm
-
 Google Chrome
-
 
 QA_Python_Automation/
 ├── tests/
@@ -22,3 +15,4 @@ QA_Python_Automation/
 ├── requirements.txt
 ├── .gitignore
 └── README.md
+
