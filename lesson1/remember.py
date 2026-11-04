@@ -100,6 +100,7 @@ st = 'Python'
 print(st[0:3])
 
 print(st[2:5])
+
 print(st[6:4])
 print(st[:10])
 print("**********************")
