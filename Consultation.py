@@ -43,7 +43,21 @@ def print_sublist_reverse(lst, start, finish):
     if start <0 or start >= len(lst) or finish >=len(lst) or start>finish:
         print("Wrong args")
         return
-    beginning  = lst[:start]
-    middle =
+    #beginning  = lst[:start]
+    #middle =
 
 
+#API
+
+contact = {
+    "id":12,
+    "name":"Anna",
+    "email":"anna@gm.com"
+}
+req_field = {
+    "id",
+    "name",
+    "email"
+}
+for field in req_field:
+    assert field in contact, f"В ответе отсутствует поле{field}"
